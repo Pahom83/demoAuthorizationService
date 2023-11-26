@@ -1,4 +1,4 @@
-package ru.netology.demoauthorizationservice.Exception;
+package ru.netology.demoauthorizationservice.exception;
 
 public class UnauthorizedUser extends RuntimeException {
     public UnauthorizedUser(String msg) {

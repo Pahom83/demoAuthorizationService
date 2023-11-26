@@ -1,14 +1,14 @@
-package ru.netology.demoauthorizationservice.Repository;
+package ru.netology.demoauthorizationservice.repository;
 
 import org.springframework.stereotype.Repository;
-import ru.netology.demoauthorizationservice.Enums.Authorities;
-import ru.netology.demoauthorizationservice.User.User;
+import ru.netology.demoauthorizationservice.enums.Authorities;
+import ru.netology.demoauthorizationservice.user.User;
 
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static ru.netology.demoauthorizationservice.Enums.Authorities.*;
+import static ru.netology.demoauthorizationservice.enums.Authorities.*;
 
 @Repository
 public class UserRepository {

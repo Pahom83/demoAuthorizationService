@@ -1,11 +1,11 @@
-package ru.netology.demoauthorizationservice.Service;
+package ru.netology.demoauthorizationservice.service;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.netology.demoauthorizationservice.Enums.Authorities;
-import ru.netology.demoauthorizationservice.Exception.InvalidCredentials;
-import ru.netology.demoauthorizationservice.Exception.UnauthorizedUser;
-import ru.netology.demoauthorizationservice.Repository.*;
+import ru.netology.demoauthorizationservice.enums.Authorities;
+import ru.netology.demoauthorizationservice.exception.InvalidCredentials;
+import ru.netology.demoauthorizationservice.exception.UnauthorizedUser;
+import ru.netology.demoauthorizationservice.repository.*;
 
 import java.util.List;
 

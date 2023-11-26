@@ -1,8 +1,8 @@
-package ru.netology.demoauthorizationservice.User;
+package ru.netology.demoauthorizationservice.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import ru.netology.demoauthorizationservice.Enums.Authorities;
+import ru.netology.demoauthorizationservice.enums.Authorities;
 
 import java.util.List;
 @Data
