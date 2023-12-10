@@ -1,0 +1,7 @@
+version: "2"
+services:
+  demoAuthorizationService:
+    build: .
+    image: 'das:1.0'
+    ports:
+      - '8080:8080'
